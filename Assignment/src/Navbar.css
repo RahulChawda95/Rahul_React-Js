@@ -1,0 +1,16 @@
+.fa-bars::after{
+    content: "All";
+    margin-left: 5px;
+    font:14px 'Amazon Ember', sans-serif;
+}
+
+.navbar-nav .fa-bars{
+    font-size: 16px;
+}
+.navbar-nav a{
+    font:14px 'Amazon Ember', sans-serif;
+}
+
+.navbar-nav{
+height: 30px;
+}

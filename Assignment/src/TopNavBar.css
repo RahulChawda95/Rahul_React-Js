@@ -1,0 +1,79 @@
+.container-fluid{
+    height: 60px;
+    
+}
+
+.container-fluid .row .logo{
+    height: 60px;
+    background-image: url(/public/image/simple-vector-filled-flat-amazon-icon-logo-solid-black-pictogram-isolated-white-background-amazon-logo-159029074.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+ 
+}
+
+.container-fluid .row .address{
+    background-color: #0F1111;
+    color: #fff;
+    font:14px 'Amazon Ember', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container-fluid .row .address .hello{
+    color: #CCCCCC;
+    font-size: 12px;
+    
+}
+.container-fluid .row .address .fa-map-marker{
+    font-size: 22px;
+}
+.container-fluid .row .address .fa-map-marker::after{
+    content: "Select your address ";
+    font:14px 'Amazon Ember', sans-serif;
+    margin-left: 5px;
+}
+
+.container-fluid .row .search{
+    background-color: #0F1111;
+    padding:7px;
+}
+.container-fluid .row .search .all{
+   
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #fff;
+    height: 45px;
+    margin-right: -18px;
+    padding-top: 10px;
+    border-right: 0.5px solid black;
+}
+
+.container-fluid .row .search .all .fa-caret-down::before{
+    content: "All";
+    font: 14px 'Amazon Ember', sans-serif;
+}
+
+.container-fluid .row .search .input1 input{
+
+width: 500px;
+height: 45px;
+border: none;
+
+}
+
+.container-fluid .row .search .submit1 button{
+    height: 45px;
+    display: inline-block;
+    width: 50px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: -55px;
+    border: none;
+    background-color: burlywood;
+}
+
+.container-fluid .row .account{
+    background-color: #0F1111;
+    color: #fff;
+}

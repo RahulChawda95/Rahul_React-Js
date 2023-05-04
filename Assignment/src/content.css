@@ -1,0 +1,44 @@
+.bg{
+height: 730px;
+width: 100%;
+background-image: url(/public/image/Home_mela_Mar_3000x1200_Unrec._CB590930664_.jpg);
+background-size: 100%;
+padding: 240px 0px 0px 30px;
+background-repeat: no-repeat;
+background-color: #BBBFBF;;
+
+}
+
+.container-fluid .row .box1,.container-fluid .row .box2,.container-fluid .row .box3,.container-fluid .row .box4{
+    height: 430px;
+    background-color: white;
+    margin-right: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+}
+
+.container-fluid .row .box1 h2,.container-fluid .row .box2 h2,.container-fluid .row .box3 h2,.container-fluid .row .box4 h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin:11px;
+}
+
+.container-fluid .row .box1 a,.container-fluid .row .box2 a,.container-fluid .row .box3 a,.container-fluid .row .box4 a{
+    color: #007185;
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.container-fluid .row .box1 .col-6 img,.container-fluid .row .box2 .col-6 img,.container-fluid .row .box3 .col-6 img,.container-fluid .row .box4 .col-6 img{
+  height: 120px;
+  width: 140px;
+  font-size: 12px;
+}
+
+.container-fluid .row .box1 .col-6 span,.container-fluid .row .box2 .col-6 span,.container-fluid .row .box3 .col-6 span,.container-fluid .row .box4 .col-6 span{
+    font:12px 'Amazon Ember', sans-serif;
+}
