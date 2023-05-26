@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redux-Assignment</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th colspan="2"><h1>Redux-Assignment</h1></th>
+      </tr>
+      <tr>
+        <td>Que.01</td>
+        <td><b>What is Redux?</b></td>
+      </tr>
+      <tr>
+        <td>Ans.</td>
+        <td>
+          <p>
+            Redux is an open-source JavaScript library used to manage
+            application state. React uses Redux for building the user interface.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Que.02</td>
+        <td><b> What is ReduxThunk used for?</b></td>
+      </tr>
+      <tr>
+        <td>Ans.</td>
+        <td>
+          <p>
+            Thunk is a logical concept in programming where you deal with a
+            function that is primarily used to delay the calculation or
+            evaluation of any operation. <br />
+          </p>
+          <p>
+            ReduxThunk acts as a middleware that will return you a function
+            instead of an object while calling through the action creators. The
+            returned function receives the dispatch method from the store and
+            then later it is used to dispatch synchronously inside the body of
+            function once the asynchronous actions have been completed. Let's
+            move ahead with ReduxThunk and talk more about its installation and
+            usage.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Que.03</td>
+        <td>
+          <b
+            >What is Pure Component? When to use Pure Component over
+            Component?</b
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Ans.</td>
+        <td>
+          PureComponent is similar to Component but it skips re-renders for same
+          props and state. Class components are still supported by React, but we
+          don’t recommend using them in new code.
+          <p><b>Usage </b></p>
+          <p>Skipping unnecessary re-renders for class components</p>
+          <p>
+            React normally re-renders a component whenever its parent
+            re-renders. As an optimization, you can create a component that
+            React will not re-render when its parent re-renders so long as its
+            new props and state are the same as the old props and state. Class
+            components can opt into this behavior by extending
+            <b>PureComponent:</b>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td>Que.04</td>
+        <td>
+          <b
+            >What is the second argument that can optionally be passed
+            tosetState and what is its purpose?</b
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Ans.</td>
+        <td>
+          <p>
+            The second argument that can optionally be passed to setState is a
+            callback function which gets called immediately after the setState
+            is completed and the components get re-rendered.
+          </p>
+          <p>
+            If you want your program to update the value of a state using
+            setState and then perform certain actions on the updated value of
+            state then you must specify those actions in a function which should
+            be the second argument of the setState. If we would not do so then
+            those actions will be performed on the previous value of state
+            because of asynchronous nature of setState.
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
