@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container
+{
+  height: 350px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  /* border: 1px solid; */
+  margin: 50px auto;
+}
+form{
+  /* border: 1px solid; */
+  
+}
+h3{
+  text-align: center;
+}
+input{
+  height: 50px;
+  width: 250px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+input:invalid:not(:placeholder-shown)
+{
+  border: 2px solid red;
+}
+input:valid:not(:placeholder-shown)
+{
+  border: 2px solid green;
+}
